@@ -7,11 +7,15 @@ module.exports = {
       poppins: "'Poppins', 'sans-serif'",
       manrope: "'Manrope', 'sans-serif'",
       robotoSlab: "'Roboto Slab', 'serif'",
+      rubik: "'Rubik', sans-serif",
     },
     extend: {
       colors: {
         //add your own color
         //https://tailwindcss.com/docs/customizing-colors
+        navy: "#161D6F",
+        lightNavy: "#76799C",
+        darkGray: "#939393",
       },
       container: {
         center: true,

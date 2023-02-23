@@ -3,13 +3,21 @@
 @tailwind utilities;
 
 @layer base {
-  body {
+  body::before {
+    content: "";
+    position: absolute;
     background: linear-gradient(
-      -45.18deg,
-      rgba(22, 29, 111, 0.29) 12.16%,
-      rgba(22, 29, 111, 0) 93.11%
+      134.27deg,
+      rgba(115, 186, 237, 0.16) 5.56%,
+      rgba(11, 34, 57, 0.16) 50.65%,
+      rgba(210, 165, 47, 0.16) 93.01%
     );
-    min-height: 100vh;
+    filter: blur(179.063px);
+    @apply inset-0;
+    z-index: -100;
+  }
+  body {
+    @apply relative text-lg;
   }
   a {
     @apply text-lg font-poppins text-[#414141];
