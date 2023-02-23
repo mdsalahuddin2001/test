@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background: linear-gradient(
+      -45.18deg,
+      rgba(22, 29, 111, 0.29) 12.16%,
+      rgba(22, 29, 111, 0) 93.11%
+    );
+    min-height: 100vh;
+  }
+  a {
+    @apply text-lg font-poppins text-[#414141];
+  }
+}

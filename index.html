@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Manrope:wght@400;500&family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>ComZen</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="px-4 py-12 xl:px-16 lg:px-8">
+      <div
+        class="flex items-center justify-between lg:space-x-24 2xl:space-x-72 lg:justify-start"
+      >
+        <a href="/index.html"
+          ><img src="./assets/images/logo.png" class="mb-3" alt="comzen"
+        /></a>
+        <div class="hidden lg:flex">
+          <ul class="flex items-center lg:space-x-12 xl:space-x-14">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Business type</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <button class="lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+    <!-- hero illustration -->
+    <div
+      class="absolute top-0 right-0 hidden -z-10 xl:block w-[51.31%] max-w-[985px]"
+    >
+      <div class="relative">
+        <img
+          class="absolute left-0 xl:top-[10%] xl:w-[195px] 2xl:w-auto 2xl:top-[12%]"
+          src="./assets/images/round_eye.png"
+          alt=""
+        />
+        <img
+          class="top-0 left-0 w-full"
+          src="./assets/images/hero_illustration.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- hero illustration ends -->
+    <!-- Hero Info -->
+    <div class="px-4 xl:py-0 xl:px-16 lg:px-8">
+      <div class="max-w-[830px] xl:max-w-[48%] mt-[60px] 2xl:mt-[122px]">
+        <h1
+          class="text-[#161D6F] font-robotoSlab font-extrabold !leading-[60px] 2xl:!leading-[79px] mb-4 xl:mb-6 2xl:mb-14 text-5xl 2xl:text-6xl"
+        >
+          Engage Your Customers Instantly For Your Business
+        </h1>
+        <p
+          class="text-[#76799C] font-manrope leading-[179%] text-lg mb-4 xl:mb-6 2xl:mb-14"
+        >
+          Build your first AI chatbots with ready-to-use templates. Customize
+          them to fit your business needs, and bring your chatbots to life
+          within minutes.
+        </p>
+
+        <form class="max-w-lg mb-6 xl:mb-12 2xl:mb-24">
+          <div class="relative">
+            <input
+              type="email"
+              id="email"
+              class="block w-full p-4 pl-8 text-lg text-gray-900 border border-white rounded-full bg-[#7D9FC3]/10 font- font-manrope"
+              placeholder="Enter your work email."
+              required
+            />
+            <button
+              type="submit"
+              class="absolute bottom-0 right-0 py-4 px-8 text-lg font-medium text-white bg-[#161D6F] border border-[#161D6F] rounded-full font-manrope"
+            >
+              Sign up
+            </button>
+          </div>
+        </form>
+        <div>
+          <!-- social icons -->
+          <div class="flex items-center space-x-6">
+            <a href="#"
+              ><img src="./assets/images/icons/facebook.png" alt="facebook"
+            /></a>
+            <a href="#"
+              ><img src="./assets/images/icons/linkedIn.png" alt="linkedin"
+            /></a>
+            <a href="#"
+              ><img src="./assets/images/icons/whatsApp.png" alt="whatsApp"
+            /></a>
+            <a href="#"
+              ><img src="./assets/images/icons/twitter.png" alt="twitter"
+            /></a>
+          </div>
+          <!-- social icons ends -->
+        </div>
+      </div>
+    </div>
+    <!-- Hero Info Ends -->
+    <script type="module" src="/assets/js/main.js"></script>
+  </body>
+</html>
