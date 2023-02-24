@@ -15,154 +15,227 @@
   </head>
 
   <body>
-    <!-- navbar -->
-    <nav class="px-4 py-12 xl:px-16 lg:px-8">
-      <div
-        class="flex items-center justify-between lg:space-x-24 2xl:space-x-72 lg:justify-start"
-      >
-        <a href="/index.html"
-          ><img src="./assets/images/logo.png" class="mb-3" alt="comzen"
-        /></a>
-        <div class="hidden lg:flex">
-          <ul class="flex items-center lg:space-x-12 xl:space-x-14">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Business type</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">About Us</a></li>
-          </ul>
+    <!-- Header Starts -->
+    <header class="min-h-screen">
+      <!-- Header Ends -->
+      <!-- navbar -->
+      <nav class="px-4 py-12 xl:px-16 lg:px-8">
+        <div
+          class="flex items-center justify-between lg:space-x-24 2xl:space-x-72 lg:justify-start"
+        >
+          <a href="/index.html"
+            ><img src="./assets/images/logo.png" class="mb-3" alt="comzen"
+          /></a>
+          <div class="hidden lg:flex">
+            <ul class="flex items-center lg:space-x-12 xl:space-x-14">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Business type</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+          <button class="lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
         </div>
-        <button class="lg:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
+      </nav>
+      <!-- navbar ends -->
+      <!-- hero illustration -->
+      <div
+        class="absolute top-0 right-0 hidden lg:block lg:opacity-20 -z-10 xl:block xl:opacity-100 w-[51.31%] max-w-[985px]"
+      >
+        <div class="relative">
+          <img
+            class="absolute left-0 xl:top-[10%] xl:w-[195px] 2xl:w-auto 2xl:top-[12%]"
+            src="./assets/images/round_eye.png"
+            alt=""
+          />
+          <img
+            class="top-0 left-0 w-full"
+            src="./assets/images/hero_illustration.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- hero illustration ends -->
+      <!-- Hero Info -->
+      <div class="px-4 py-8 xl:py-0 xl:px-16 lg:px-8">
+        <div class="max-w-[830px] xl:max-w-[48%] mt-[60px] 2xl:mt-[122px]">
+          <h1
+            class="text-[#161D6F] font-robotoSlab font-extrabold !leading-[60px] 2xl:!leading-[79px] mb-4 xl:mb-6 2xl:mb-14 text-5xl 2xl:text-6xl"
           >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
-        </button>
+            Engage Your Customers Instantly For Your Business
+          </h1>
+          <p
+            class="text-[#76799C] font-manrope leading-[179%] text-lg mb-4 xl:mb-6 2xl:mb-14"
+          >
+            Build your first AI chatbots with ready-to-use templates. Customize
+            them to fit your business needs, and bring your chatbots to life
+            within minutes.
+          </p>
+
+          <form class="max-w-lg mb-12 2xl:mb-24">
+            <div class="relative">
+              <input
+                type="email"
+                id="email"
+                class="block w-full p-4 pl-8 text-lg text-gray-900 border border-white rounded-full bg-[#7D9FC3]/10 font- font-manrope"
+                placeholder="Enter your work email."
+                required
+              />
+              <button
+                type="submit"
+                class="absolute bottom-0 right-0 py-4 px-8 text-lg font-medium text-white bg-[#161D6F] border border-[#161D6F] rounded-full font-manrope"
+              >
+                Sign up
+              </button>
+            </div>
+          </form>
+        </div>
+        <div>
+          <div
+            class="items-end space-y-4 md:flex md:space-y-0 md:space-x-[84px]"
+          >
+            <!-- social icons -->
+            <div class="flex items-center mb-8 space-x-6 md:mb-0">
+              <a href="#"
+                ><img src="./assets/images/icons/facebook.png" alt="facebook"
+              /></a>
+              <a href="#"
+                ><img src="./assets/images/icons/linkedIn.png" alt="linkedin"
+              /></a>
+              <a href="#"
+                ><img src="./assets/images/icons/whatsApp.png" alt="whatsApp"
+              /></a>
+              <a href="#"
+                ><img src="./assets/images/icons/twitter.png" alt="twitter"
+              /></a>
+            </div>
+            <!-- social icons ends -->
+            <div
+              class="flex items-center md:!mb-1 space-x-4 md:space-x-12 font-medium font-rubik text-lightNavy"
+            >
+              <p class="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="navy"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-4 h-4 mr-1"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                  />
+                </svg>
+                +1 123 456 7878
+              </p>
+              <p class="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="navy"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-4 h-4 mr-1"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+                  />
+                </svg>
+                email@mail.com
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-    <!-- navbar ends -->
-    <!-- hero illustration -->
-    <div
-      class="absolute top-0 right-0 hidden -z-10 xl:block w-[51.31%] max-w-[985px]"
-    >
-      <div class="relative">
-        <img
-          class="absolute left-0 xl:top-[10%] xl:w-[195px] 2xl:w-auto 2xl:top-[12%]"
-          src="./assets/images/round_eye.png"
-          alt=""
-        />
-        <img
-          class="top-0 left-0 w-full"
-          src="./assets/images/hero_illustration.png"
-          alt=""
-        />
-      </div>
-    </div>
-    <!-- hero illustration ends -->
-    <!-- Hero Info -->
-    <div class="px-4 xl:py-0 xl:px-16 lg:px-8">
-      <div class="max-w-[830px] xl:max-w-[48%] mt-[60px] 2xl:mt-[122px]">
-        <h1
-          class="text-[#161D6F] font-robotoSlab font-extrabold !leading-[60px] 2xl:!leading-[79px] mb-4 xl:mb-6 2xl:mb-14 text-5xl 2xl:text-6xl"
-        >
-          Engage Your Customers Instantly For Your Business
-        </h1>
-        <p
-          class="text-[#76799C] font-manrope leading-[179%] text-lg mb-4 xl:mb-6 2xl:mb-14"
-        >
-          Build your first AI chatbots with ready-to-use templates. Customize
-          them to fit your business needs, and bring your chatbots to life
-          within minutes.
+      <!-- Hero Info Ends -->
+    </header>
+    <!-- Product Section Starts -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">Product</h2>
+        <p class="section-summary mb-[60px]">
+          Automatically send an instant DM to any commenter or story mention
+          with a pre-set welcome message, offer, or link.
         </p>
 
-        <form class="max-w-lg mb-12 2xl:mb-24">
-          <div class="relative">
-            <input
-              type="email"
-              id="email"
-              class="block w-full p-4 pl-8 text-lg text-gray-900 border border-white rounded-full bg-[#7D9FC3]/10 font- font-manrope"
-              placeholder="Enter your work email."
-              required
+        <!-- product grid -->
+        <div class="product-grid">
+          <!-- single item - instagram -->
+          <div class="product-item">
+            <img
+              src="./assets/images/icons/products/instagram.png"
+              alt="instagram"
             />
-            <button
-              type="submit"
-              class="absolute bottom-0 right-0 py-4 px-8 text-lg font-medium text-white bg-[#161D6F] border border-[#161D6F] rounded-full font-manrope"
-            >
-              Sign up
-            </button>
+            <h4 class="product-title">
+              Automate your <br />
+              Instagram Marketing
+            </h4>
           </div>
-        </form>
-      </div>
-      <div>
-        <div class="items-end space-y-4 md:flex md:space-y-0 md:space-x-[84px]">
-          <!-- social icons -->
-          <div class="flex items-center mb-8 space-x-6 md:mb-0">
-            <a href="#"
-              ><img src="./assets/images/icons/facebook.png" alt="facebook"
-            /></a>
-            <a href="#"
-              ><img src="./assets/images/icons/linkedIn.png" alt="linkedin"
-            /></a>
-            <a href="#"
-              ><img src="./assets/images/icons/whatsApp.png" alt="whatsApp"
-            /></a>
-            <a href="#"
-              ><img src="./assets/images/icons/twitter.png" alt="twitter"
-            /></a>
+          <!-- single item ends - instagram -->
+          <!-- single item - whatsapp -->
+          <div class="flex flex-col items-center product-item">
+            <img
+              src="./assets/images/icons/products/whatsapp.png"
+              alt="whatsApp"
+            />
+            <h4 class="product-title">Connect with your Customers Instantly</h4>
           </div>
-          <!-- social icons ends -->
-          <div
-            class="flex items-center md:!mb-1 space-x-4 md:space-x-12 font-medium font-rubik text-lightNavy"
-          >
-            <p class="flex items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="navy"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-4 h-4 mr-1"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                />
-              </svg>
-              +1 123 456 7878
-            </p>
-            <p class="flex items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="navy"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-4 h-4 mr-1"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
-                />
-              </svg>
-              email@mail.com
-            </p>
+          <!-- single item ends - whatsapp -->
+          <!-- single item - messenger -->
+          <div class="product-item">
+            <img
+              src="./assets/images/icons/products/messenger.png"
+              alt="messenger"
+            />
+            <h4 class="product-title">Facebook Messenger chatbot #1</h4>
           </div>
+          <!-- single item ends - messanger -->
+          <!-- single item - personal text -->
+          <div class="product-item">
+            <img
+              src="./assets/images/icons/products/chat-bubble.png"
+              alt="chat"
+            />
+            <h4 class="product-title">
+              Text with Customers <br />
+              24/7
+            </h4>
+          </div>
+          <!-- single item ends - personal text -->
+          <!-- single item - api -->
+          <div class="product-item">
+            <img src="./assets/images/icons/products/api.png" alt="instagram" />
+            <h4 class="product-title">
+              Connect to your <br />
+              favourite tools
+            </h4>
+          </div>
+          <!-- single item ends - api -->
         </div>
+        <!-- product grid ends -->
       </div>
-    </div>
-    <!-- Hero Info Ends -->
+    </section>
+    <!-- Product Section Ends -->
     <script type="module" src="/assets/js/main.js"></script>
   </body>
 </html>

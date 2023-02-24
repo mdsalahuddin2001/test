@@ -17,9 +17,42 @@
     z-index: -100;
   }
   body {
-    @apply relative text-lg;
+    @apply relative text-lg font-poppins text-lightNavy;
   }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-robotoSlab text-navy;
+  }
+
   a {
     @apply text-lg font-poppins text-[#414141];
+  }
+  section {
+    @apply py-20;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply font-robotoSlab font-extrabold text-4xl lg:text-5xl xl:text-[60px] text-center leading-[79px] mb-6;
+  }
+  .section-title-lg {
+    @apply font-robotoSlab font-[900] text-4xl lg:text-6xl xl:text-[80px] text-center leading-[106px] mb-16;
+  }
+  .section-summary {
+    @apply text-xl text-lightNavy leading-[30px] text-center mx-auto max-w-[754px];
+  }
+  .product-grid {
+    @apply grid grid-cols-2 gap-x-6 md:grid-cols-3 lg:grid-cols-5 gap-y-8;
+  }
+  .product-item {
+    @apply flex flex-col items-center space-y-12;
+  }
+  .product-title {
+    @apply text-[22px] leading-[158.52%] text-center text-darkGray;
   }
 }
