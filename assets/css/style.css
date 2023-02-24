@@ -38,10 +38,10 @@
 
 @layer components {
   .section-title {
-    @apply font-robotoSlab font-extrabold text-4xl lg:text-5xl xl:text-[60px] text-center leading-[79px] mb-6;
+    @apply font-robotoSlab font-extrabold text-4xl lg:text-5xl xl:text-[60px] text-center xl:!leading-[79px] mb-6;
   }
   .section-title-lg {
-    @apply font-robotoSlab font-[900] text-4xl lg:text-6xl xl:text-[80px] text-center leading-[106px] mb-16;
+    @apply font-robotoSlab font-[900] text-4xl lg:text-6xl xl:text-[80px] text-center xl:!leading-[106px] mb-16;
   }
   .section-summary {
     @apply text-xl text-lightNavy leading-[30px] text-center mx-auto max-w-[754px];
