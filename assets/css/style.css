@@ -32,11 +32,20 @@
     @apply text-lg font-poppins text-[#414141];
   }
   section {
-    @apply py-20;
+    @apply py-8 md:py-12 lg:py-20;
   }
 }
 
 @layer components {
+  .signup_form {
+    @apply max-w-lg mb-12 2xl:mb-24;
+  }
+  .signup_email_input {
+    @apply block w-full p-3 sm:p-4 pl-4 sm:pl-8 text-sm sm:text-lg text-gray-900 border border-white rounded-full bg-[#7D9FC3]/10;
+  }
+  .signup_btn {
+    @apply absolute bottom-0 right-0 py-3 sm:py-4 px-8 text-sm sm:text-lg font-medium text-white bg-[#161D6F] border border-[#161D6F] rounded-full font-manrope;
+  }
   .section-title {
     @apply font-robotoSlab font-extrabold text-4xl lg:text-5xl xl:text-[60px] text-center xl:!leading-[79px] mb-6;
   }
@@ -44,7 +53,7 @@
     @apply font-robotoSlab font-[900] text-4xl lg:text-6xl xl:text-[80px] text-center xl:!leading-[106px] mb-16;
   }
   .section-summary {
-    @apply text-xl text-lightNavy leading-[30px] text-center mx-auto max-w-[754px];
+    @apply text-xl text-lightNavy leading-[30px] text-center mx-auto max-w-[800px];
   }
   .product-grid {
     @apply grid sm:grid-cols-2 gap-x-6 md:grid-cols-3 lg:grid-cols-5 gap-y-8;
