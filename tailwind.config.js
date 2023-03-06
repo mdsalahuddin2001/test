@@ -17,6 +17,9 @@ module.exports = {
         lightNavy: "#76799C",
         darkGray: "#939393",
       },
+      boxShadow: {
+        cardShadow: "0px 26.7083px 66.7708px rgba(18, 17, 39, 0.08)",
+      },
       container: {
         center: true,
         padding: "1.5rem",
