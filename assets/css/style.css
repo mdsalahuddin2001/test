@@ -70,4 +70,13 @@
   input:checked ~ .dot {
     transform: translateX(100%);
   }
+  .help_buttons_container {
+    @apply [&>*]:mb-1.5 flex-wrap -mr-1.5 lg:[&>*]:mr-4 lg:[&>*]:mb-4  lg:-mr-4;
+  }
+  .help_btn {
+    @apply px-4 py-3 text-xs font-semibold border rounded-full md:py-4 md:px-7 text-[#121127];
+  }
+  .help_btn.active {
+    @apply bg-[#F2F3FF] border-indigo-100 text-navy;
+  }
 }
